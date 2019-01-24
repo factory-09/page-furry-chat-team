@@ -6,7 +6,9 @@ permalink: /
 <main id="page-wrapper">
 
 	{% for user in site.data.users %}
-		{{user}}
+		{% for user in group[1] %}
+			{{user}}
+		{% endfor %}
 	{% endfor %}
 
 </main>
