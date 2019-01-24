@@ -16,7 +16,6 @@ permalink: /
 				{% assign description = user[1]['description'] %}
 				{% assign job = user[1]['job'] %}
 					<div class="columns">
-						{% if loopindex == 1 %}
 						<div class="column">
 							<article class="card" itemscope itemtype="http://schema.org/Person">
 								<div class="card-content">
@@ -43,7 +42,6 @@ permalink: /
 								</div>
 							</article>
 						</div>
-						{% else %}
 						<div class="column">
 							<article class="card" itemscope itemtype="http://schema.org/Person">
 								<div class="card-content">
@@ -70,7 +68,6 @@ permalink: /
 								</div>
 							</article>
 						</div>
-						{% endif %}
 					</div>
 
 			{% endfor %}
