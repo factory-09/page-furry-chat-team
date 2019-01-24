@@ -16,7 +16,7 @@ permalink: /
 				{% assign description = user[1]['description'] %}
 				{% assign job = user[1]['job'] %}
 
-				{% if loopindex == 1 %}
+				{% if modulo == '0' or forloop.first %}
 				<div class="columns">
 				{% endif %}
 
@@ -47,11 +47,7 @@ permalink: /
 						</article>
 					</div>
 
-				{% if loopindex != 1 %}
-				</div>
-				{% endif %}
-
-				{% if loopindex == 1 %}
+				{% if modulo == '1' or forloop.last %}
 				</div>
 				{% endif %}
 
