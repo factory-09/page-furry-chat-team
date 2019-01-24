@@ -10,47 +10,43 @@ permalink: /
 	<!-- section-main -->
 	<section id="section-main" class="section">
 		<div class="container">
-
 			{% for row in (1..rows) %}
 				{% assign offset = forloop.index0 | times: 2 %}
 				<div class="columns">
 					{% for user in data limit:2 offset:offset %}
-
-					{% assign img 			= user[1]['img'] %}
-					{% assign name 			= user[1]['name'] %}
-					{% assign description 	= user[1]['description'] %}
-					{% assign job 			= user[1]['job'] %}
-					<div class="column">
-						<article class="card" itemscope itemtype="http://schema.org/Person">
-							<div class="card-content">
-								<div class="media">
-									<figure class="media-left">
-										<p class="image is-64x64">
-											<img class="is-rounded" src="{{ img }}" alt="" itemprop="image" />
-										</p>
-									</figure>
-									<div class="media-content">
-										<h4 class="title is-4">
-											<a href="#" itemprop="url">{{ name }}</a>
-										</h4>
-										<p class="subtitle is-6 has-text-grey-light">
-											<span itemprop="jobTitle">{{ job }}</span>
+						{% assign img 			= user[1]['img'] %}
+						{% assign name 			= user[1]['name'] %}
+						{% assign description 	= user[1]['description'] %}
+						{% assign job 			= user[1]['job'] %}
+						<div class="column">
+							<article class="card" itemscope itemtype="http://schema.org/Person">
+								<div class="card-content">
+									<div class="media">
+										<figure class="media-left">
+											<p class="image is-64x64">
+												<img class="is-rounded" src="{{ img }}" alt="" itemprop="image" />
+											</p>
+										</figure>
+										<div class="media-content">
+											<h4 class="title is-4">
+												<a href="#" itemprop="url">{{ name }}</a>
+											</h4>
+											<p class="subtitle is-6 has-text-grey-light">
+												<span itemprop="jobTitle">{{ job }}</span>
+											</p>
+										</div>
+									</div>
+									<div class="content">
+										<p>
+											{{ description }}
 										</p>
 									</div>
 								</div>
-								<div class="content">
-									<p>
-										{{ description }}
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
+							</article>
+						</div>
 					{% endfor %}
 				</div>
-
 			{% endfor %}
-
 		</div>
 	</section>
 	<!-- section-main -->
