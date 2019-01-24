@@ -5,10 +5,8 @@ permalink: /
 
 <main id="page-wrapper">
 
-	{% for group in site.data.users %}
-		{% for user in group[1] %}
-			{{user}}
-		{% endfor %}
+	{% for user in site.data.users %}
+		{{user}}
 	{% endfor %}
 
 </main>
