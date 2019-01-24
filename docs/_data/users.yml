@@ -1,7 +1,9 @@
 kitsune:
-  - "Kitsune Solar"
-  - "kit_test1"
+  name: "Kitsune Solar"
+  description: ""
+  img:  "kit_test1"
 
 skuman:
-  - "Skumen"
-  - "sk_test2"
+  name: "Skumen"
+  description: ""
+  img: "sk_test2"
