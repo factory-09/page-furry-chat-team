@@ -7,7 +7,7 @@ permalink: /
 
 	{% for user in site.data.users %}
 		{% for i in user[1] %}
-			{{i}}
+			{{ i[0] }}
 		{% endfor %}
 	{% endfor %}
 
