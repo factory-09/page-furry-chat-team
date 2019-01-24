@@ -4,13 +4,13 @@ permalink: /
 ---
 
 {% assign data = site.data.users %}
+{% assign rows = data.size | divided_by: 2.0 | ceil %}
 
 <main id="page-wrapper">
 	<!-- section-main -->
 	<section id="section-main" class="section">
 		<div class="container">
 
-			{% assign rows = data.size | divided_by: 2.0 | ceil %}
 			{% for row in (1..rows) %}
 				{% assign offset = forloop.index0 | times: 2 %}
 				<div class="columns">
