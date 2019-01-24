@@ -18,7 +18,8 @@ permalink: /
 
 				{% if loopindex == 1 %}
 				<div class="columns">
-					{% endif %}
+				{% endif %}
+
 					<div class="column">
 						<article class="card" itemscope itemtype="http://schema.org/Person">
 							<div class="card-content">
@@ -45,9 +46,10 @@ permalink: /
 							</div>
 						</article>
 					</div>
-					{% if loopindex != 1 %}
+
+				{% if loopindex != 1 %}
 				</div>
-			{% endif %}
+				{% endif %}
 
 			{% endfor %}
 
