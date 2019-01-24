@@ -9,16 +9,15 @@ permalink: /
 		<div class="container">
 
 			{% assign rows = site.data.users.size | divided_by: 2.0 | ceil %}
-			{% for user in (1..rows) %}
+			{% for user1 in (1..rows) %}
 				{% assign offset = forloop.index0 | times: 2 %}
-
-				{% assign img = user[1]['img'] %}
-				{% assign name = user[1]['name'] %}
-				{% assign description = user[1]['description'] %}
-				{% assign job = user[1]['job'] %}
-
 				<div class="columns">
-					{% for user in site.data.users limit:2 offset:offset %}
+					{% for user2 in site.data.users limit:2 offset:offset %}
+
+					{% assign img 			= user2[1]['img'] %}
+					{% assign name 			= user2[1]['name'] %}
+					{% assign description 	= user2[1]['description'] %}
+					{% assign job 			= user2[1]['job'] %}
 					<div class="column">
 						<article class="card" itemscope itemtype="http://schema.org/Person">
 							<div class="card-content">
