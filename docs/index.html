@@ -9,7 +9,7 @@ permalink: /
 		<div class="container">
 
 			{% for user in site.data.users %}
-				{% assign loopindex = forloop.index | modulo: 2 %}
+				{% capture modulo %}{{ forloop.index0 | mod:2 }}{% endcapture %}
 
 				{% assign img = user[1]['img'] %}
 				{% assign name = user[1]['name'] %}
