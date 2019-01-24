@@ -6,7 +6,7 @@ permalink: /
 <main id="page-wrapper">
 
 	{% for user in site.data.users %}
-		{% assign img = user[1]['img'] %}
+		{% assign img = user[1][0] %}
 		{{ img }}
 	{% endfor %}
 
