@@ -8,18 +8,17 @@ permalink: /
 	<section id="section-main" class="section">
 		<div class="container">
 
-			{% for user in site.data.users %}
-				{% capture modulo %}{{ forloop.index0 | mod:2 }}{% endcapture %}
+			{% assign rows = site.data.users | divided_by: 2.0 | ceil %}
+			{% for user in (1..rows) %}
+				{% assign offset = forloop.index0 | times: 2 %}
 
 				{% assign img = user[1]['img'] %}
 				{% assign name = user[1]['name'] %}
 				{% assign description = user[1]['description'] %}
 				{% assign job = user[1]['job'] %}
 
-				{% if modulo == '0' or forloop.first %}
 				<div class="columns">
-				{% endif %}
-
+					{% for post in site.posts limit:2 offset:offset %}
 					<div class="column">
 						<article class="card" itemscope itemtype="http://schema.org/Person">
 							<div class="card-content">
@@ -46,10 +45,8 @@ permalink: /
 							</div>
 						</article>
 					</div>
-
-				{% if modulo == '1' or forloop.last %}
+					{% endfor %}
 				</div>
-				{% endif %}
 
 			{% endfor %}
 
