@@ -8,7 +8,7 @@ permalink: /
 	<section id="section-main" class="section">
 		<div class="container">
 
-			{% assign rows = site.data.users | divided_by: 2.0 | ceil %}
+			{% assign rows = site.data.users.size | divided_by: 2.0 | ceil %}
 			{% for user in (1..rows) %}
 				{% assign offset = forloop.index0 | times: 2 %}
 
@@ -18,7 +18,7 @@ permalink: /
 				{% assign job = user[1]['job'] %}
 
 				<div class="columns">
-					{% for post in site.posts limit:2 offset:offset %}
+					{% for user in site.data.users limit:2 offset:offset %}
 					<div class="column">
 						<article class="card" itemscope itemtype="http://schema.org/Person">
 							<div class="card-content">
