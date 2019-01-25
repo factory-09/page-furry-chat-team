@@ -1,4 +1,4 @@
-title: "Управляющий состав"
+title: "Управляющий состав - Чат FURRY / ФУРРИ"
 description: ""
 lang: "ru_RU"
 logo: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
@@ -13,7 +13,7 @@ twitter:
   card: "summary"
 
 social:
-  name: ""
+  name: "Управляющий состав - Чат FURRY / ФУРРИ"
   links:
   - https://twitter.com/furryfdn
   - https://vk.com/furryfdn
@@ -27,37 +27,3 @@ author:
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
-
-custom:
-  fonts:
-    - https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&amp;subset=cyrillic
-    - https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic
-    - https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic
-    - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
-  styles:
-    - https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css
-    - https://cdn-storage.github.io/styles/theme/theme.css
-  scripts:
-    - https://cdn.jsdelivr.net/npm/jquery
-    - https://cdn.jsdelivr.net/npm/clipboard
-    - https://cdn-storage.github.io/scripts/bulma/bulma.min.js
-    - https://cdn-storage.github.io/scripts/theme/theme.min.js
-  meta:
-    keywords: "furry, chat, фурри, чат, фурри чат"
-    copyright: "METADATA Foundation"
-    theme-color: "#f3f6f9"
-  html:
-    copyright: "<span class='meta-cr'><i class='fas fa-code'></i> with <i class='fas fa-heart' style='color: #fe6e3a;'></i> by <a title='Web Application Development Company' href='https://metadata.foundation/'><strong>METADATA</strong></a></span>"
-  cdn:
-    url: "https://cdn-storage.github.io"
-  info:
-    url: "https://metainfo.github.io"
-  discord:
-    id: "303327594793795588"
-    url: "https://discord.gg/EV6UENX"
-  stats:
-    channels:
-      thematic: "10"
-      rp: "3"
-      voice: "6"
-    users: "1300"
