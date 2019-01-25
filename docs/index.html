@@ -48,11 +48,11 @@ permalink: /
 									<div class="content">
 										<div class="nano">
 											<div class="nano-content">
-										{% for desc in description %}
-											<p>
-												{{ desc }}
-											</p>
-										{% endfor %}
+												{% for desc in description %}
+													<p>
+														{{ desc }}
+													</p>
+												{% endfor %}
 											</div>
 										</div>
 									</div>
@@ -61,43 +61,52 @@ permalink: /
 									<div class="card-footer-item">
 										<div class="buttons">
 											{% if facebook != empty %}
-											<a class="button" href="{{ facebook }}" rel="nofollow">
-												<span class="icon"><i class="fab fa-facebook-f"></i></span>
-											</a>
+												<a class="button" href="{{ facebook }}" rel="nofollow">
+													<span class="icon"><i class="fab fa-facebook-f"></i></span>
+												</a>
 											{% endif %}
+
 											{% if twitter != empty %}
-											<a class="button" href="{{ twitter }}" rel="nofollow">
-												<span class="icon"><i class="fab fa-twitter"></i></span>
-											</a>
+												<a class="button" href="{{ twitter }}" rel="nofollow">
+													<span class="icon"><i class="fab fa-twitter"></i></span>
+												</a>
 											{% endif %}
+
 											{% if vk != empty %}
-											<a class="button" href="{{ vk }}" rel="nofollow">
-												<span class="icon"><i class="fab fa-vk"></i></span>
-											</a>
+												<a class="button" href="{{ vk }}" rel="nofollow">
+													<span class="icon"><i class="fab fa-vk"></i></span>
+												</a>
 											{% endif %}
-										</div>
-									</div>
-									<div class="card-footer-item">
-										<div class="buttons">
-											<a class="button" href="{{ twitch }}" rel="nofollow">
-												<span class="icon"><i class="fab fa-twitch"></i></span>
-											</a>
-											<a class="button" href="{{ youtube }}" rel="nofollow">
-												<span class="icon"><i class="fab fa-youtube"></i></span>
-											</a>
-										</div>
-									</div>
-									<div class="card-footer-item">
-										<div class="buttons">
-											<a class="button" href="{{ github }}" rel="nofollow">
-												<span class="icon"><i class="fab fa-github-alt"></i></span>
-											</a>
-											<a class="button" href="{{ soundcloud }}" rel="nofollow">
-												<span class="icon"><i class="fab fa-soundcloud"></i></span>
-											</a>
-											<a class="button" href="{{ furaffinity }}" rel="nofollow">
-												<span class="icon"><i class="fas fa-paw"></i></span>
-											</a>
+
+											{% if twitch != empty %}
+												<a class="button" href="{{ twitch }}" rel="nofollow">
+													<span class="icon"><i class="fab fa-twitch"></i></span>
+												</a>
+											{% endif %}
+
+											{% if youtube != empty %}
+												<a class="button" href="{{ youtube }}" rel="nofollow">
+													<span class="icon"><i class="fab fa-youtube"></i></span>
+												</a>
+											{% endif %}
+
+											{% if github != empty %}
+												<a class="button" href="{{ github }}" rel="nofollow">
+													<span class="icon"><i class="fab fa-github-alt"></i></span>
+												</a>
+											{% endif %}
+
+											{% if soundcloud != empty %}
+												<a class="button" href="{{ soundcloud }}" rel="nofollow">
+													<span class="icon"><i class="fab fa-soundcloud"></i></span>
+												</a>
+											{% endif %}
+
+											{% if furaffinity != empty %}
+												<a class="button" href="{{ furaffinity }}" rel="nofollow">
+													<span class="icon"><i class="fas fa-paw"></i></span>
+												</a>
+											{% endif %}
 										</div>
 									</div>
 								</footer>
