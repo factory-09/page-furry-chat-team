@@ -6,13 +6,11 @@ fonts:
 
 styles:
 - https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css
-- https://cdn.jsdelivr.net/npm/nanoscroller/bin/css/nanoscroller.min.css
 - https://cdn-storage.github.io/styles/theme/theme.css
 
 scripts:
 - https://cdn.jsdelivr.net/npm/jquery
 - https://cdn.jsdelivr.net/npm/clipboard
-- https://cdn.jsdelivr.net/npm/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js
 - https://cdn-storage.github.io/scripts/bulma/bulma.min.js
 - https://cdn-storage.github.io/scripts/theme/theme.min.js
 
