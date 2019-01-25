@@ -46,15 +46,11 @@ permalink: /
 										</div>
 									</div>
 									<div class="content">
-										<div class="nano">
-											<div class="nano-content">
-												{% for desc in description %}
-													<p>
-														{{ desc }}
-													</p>
-												{% endfor %}
-											</div>
-										</div>
+										{% for desc in description %}
+											<p>
+												{{ desc }}
+											</p>
+										{% endfor %}
 									</div>
 								</div>
 								<footer class="card-footer">
