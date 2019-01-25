@@ -2,13 +2,14 @@ kitsune:
   avatar: "https://bulma.io/images/placeholders/128x128.png"
   name: "Kitsune Solar"
   description:
-    - "Vestibulum ut est augue, in varius purus."
-    - "Donec volutpat nibh sit amet libero ornare non laoreet arcu luctus. Donec id arcu quis mauris euismod placerat sit amet ut metus. Sed imperdiet fringilla sem eget euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque adipiscing, neque ut pulvinar tincidunt, est sem euismod odio, eu ullamcorper turpis nisl sit amet velit. Nullam vitae nibh odio, non scelerisque nibh. Vestibulum ut est augue, in varius purus."
+    - "Веб-мастер и системный администратор."
+    - "Является автором модификаций к различным движкам сайтов и форумов. В разработке использует такие CMS, как Drupal, Joomla!, WordPress, IP.Board, vBulletin и MediaWiki. На этих CMS также поднимал свои проекты."
   jobTitle: "Модератор"
   contacts:
     email: "kitsune.solar@gmail.com"
   social:
     facebook: ""
+    furaffinity: ""
     github: "https://github.com/KitsuneSolar"
     soundcloud: ""
     twitch: ""
@@ -19,28 +20,32 @@ kitsune:
 skuman:
   avatar: ""
   name: "Skumen"
-  description: ""
-  jobTitle: ""
+  description:
+    - "Любит различные технические примочки. Изучает ОС GNU/Linux. Работает дома, настраивает базовые станции сотовой связи, проверяет оборудование и правильность построения станции по проектному плану."
+    - "Увлекается программированием контроллеров Canny (всех поколений), радио-связью, ядерным вооружением межконтинентального типа, разработкой разных систем военного назначения и многим другим."
+  jobTitle: "Инженер"
   contacts:
     email: ""
   social:
     facebook: ""
-    github: ""
+    furaffinity: ""
+    github: "https://github.com/Skumen"
     soundcloud: ""
     twitch: ""
     twitter: ""
-    vk: ""
+    vk: "https://vk.com/id226641107"
     youtube: ""
 
 izoniazid:
   avatar: ""
   name: "Izoniazid"
   description: ""
-  jobTitle: ""
+  jobTitle: "Инженер"
   contacts:
     email: ""
   social:
     facebook: ""
+    furaffinity: ""
     github: ""
     soundcloud: ""
     twitch: ""
@@ -51,44 +56,49 @@ izoniazid:
 caramel:
   avatar: ""
   name: "Карамелька"
-  description: ""
-  jobTitle: ""
+  description:
+    - "Любит компьютеры, программирование. Разработчик Discord-бота JuniperBot."
+  jobTitle: "Инженер"
   contacts:
     email: ""
   social:
     facebook: ""
-    github: ""
+    furaffinity: "https://furaffinity.net/user/goldrenard/"
+    github: "https://github.com/GoldRenard"
     soundcloud: ""
     twitch: ""
     twitter: ""
-    vk: ""
+    vk: "https://vk.com/id156105125"
     youtube: ""
 
 ryu:
   avatar: ""
   name: "2RyU2"
-  description: ""
-  jobTitle: ""
+  description:
+    - "Художник. Живёт в Кишинёве, столице Молдавии."
+  jobTitle: "Хранитель"
   contacts:
     email: ""
   social:
     facebook: ""
+    furaffinity: "https://furaffinity.net/user/excitedcargoyle/"
     github: ""
     soundcloud: ""
     twitch: ""
     twitter: ""
-    vk: ""
+    vk: "https://vk.com/id162105370"
     youtube: ""
 
 nao:
   avatar: ""
   name: "Näo"
-  description: ""
-  jobTitle: ""
+  description: "Администратор сервера ФУРРИ РП."
+  jobTitle: "Администратор"
   contacts:
     email: ""
   social:
     facebook: ""
+    furaffinity: ""
     github: ""
     soundcloud: ""
     twitch: ""
