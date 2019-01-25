@@ -1,1 +1,3 @@
-$(".nano").nanoScroller();
+"use strict";
+
+$('.nano').nanoScroller({scroll: 'top'});
