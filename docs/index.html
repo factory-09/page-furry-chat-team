@@ -45,9 +45,11 @@ permalink: /
 										</div>
 									</div>
 									<div class="content">
-										<p>
-											{{ description }}
-										</p>
+										{% for desc in description %}
+											<p>
+												{{ desc }}
+											</p>
+										{% endfor %}
 									</div>
 								</div>
 							</article>
