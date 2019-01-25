@@ -45,3 +45,35 @@ izoniazid:
     twitter: ""
     vk: ""
     youtube: ""
+
+caramel:
+  avatar: ""
+  name: "Карамелька"
+  description: ""
+  jobTitle: ""
+  contacts:
+    email: ""
+  social:
+    facebook: ""
+    github: ""
+    soundcloud: ""
+    twitch: ""
+    twitter: ""
+    vk: ""
+    youtube: ""
+
+ryu:
+  avatar: ""
+  name: "2RyU2"
+  description: ""
+  jobTitle: ""
+  contacts:
+    email: ""
+  social:
+    facebook: ""
+    github: ""
+    soundcloud: ""
+    twitch: ""
+    twitter: ""
+    vk: ""
+    youtube: ""
