@@ -60,15 +60,21 @@ permalink: /
 								<footer class="card-footer">
 									<div class="card-footer-item">
 										<div class="buttons">
+											{% if facebook %}
 											<a class="button" href="{{ facebook }}" rel="nofollow">
 												<span class="icon"><i class="fab fa-facebook-f"></i></span>
 											</a>
+											{% endif %}
+											{% if twitter %}
 											<a class="button" href="{{ twitter }}" rel="nofollow">
 												<span class="icon"><i class="fab fa-twitter"></i></span>
 											</a>
+											{% endif %}
+											{% if vk %}
 											<a class="button" href="{{ vk }}" rel="nofollow">
 												<span class="icon"><i class="fab fa-vk"></i></span>
 											</a>
+											{% endif %}
 										</div>
 									</div>
 									<div class="card-footer-item">
