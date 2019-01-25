@@ -79,3 +79,19 @@ ryu:
     twitter: ""
     vk: ""
     youtube: ""
+
+nao:
+  avatar: ""
+  name: "Näo"
+  description: ""
+  jobTitle: ""
+  contacts:
+    email: ""
+  social:
+    facebook: ""
+    github: ""
+    soundcloud: ""
+    twitch: ""
+    twitter: ""
+    vk: ""
+    youtube: ""
