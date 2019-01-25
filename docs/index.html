@@ -18,6 +18,7 @@ permalink: /
 						{% assign name 			= user[1]['name'] %}
 						{% assign description 	= user[1]['description'] %}
 						{% assign jobTitle 		= user[1]['jobTitle'] %}
+						{% assign email 		= user[1]['contacts']['email'] %}
 						{% assign facebook 		= user[1]['social']['facebook'] %}
 						{% assign github 		= user[1]['social']['github'] %}
 						{% assign soundcloud 	= user[1]['social']['soundcloud'] %}
@@ -45,7 +46,7 @@ permalink: /
 									</div>
 									<div class="content">
 										<p>
-											{{ description }}
+											{{ email }}
 										</p>
 									</div>
 								</div>
