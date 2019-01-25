@@ -3,7 +3,7 @@ layout: home
 permalink: /
 ---
 
-{% assign data = site.data.users %}
+{% assign data = site.data.users | sort %}
 {% assign rows = data.size | divided_by: 2.0 | ceil %}
 
 <main id="page-wrapper">
@@ -14,10 +14,17 @@ permalink: /
 				{% assign offset = forloop.index0 | times: 2 %}
 				<div class="columns">
 					{% for user in data limit:2 offset:offset %}
-						{% assign img 			= user[1]['img'] %}
+						{% assign avatar 		= user[1]['avatar'] %}
 						{% assign name 			= user[1]['name'] %}
 						{% assign description 	= user[1]['description'] %}
-						{% assign job 			= user[1]['job'] %}
+						{% assign jobTitle 		= user[1]['jobTitle'] %}
+						{% assign facebook 		= user[1]['social']['facebook'] %}
+						{% assign github 		= user[1]['social']['github'] %}
+						{% assign soundcloud 	= user[1]['social']['soundcloud'] %}
+						{% assign twitch 		= user[1]['social']['twitch'] %}
+						{% assign twitter 		= user[1]['social']['twitter'] %}
+						{% assign vk 			= user[1]['social']['vk'] %}
+						{% assign youtube 		= user[1]['social']['youtube'] %}
 						<div class="column">
 							<article class="card" itemscope itemtype="http://schema.org/Person">
 								<div class="card-content">

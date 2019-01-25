@@ -1,14 +1,47 @@
 kitsune:
+  avatar: ""
   name: "Kitsune Solar"
   description: ""
-  img:  "kit_test1"
+  jobTitle: ""
+  contacts:
+    email: ""
+  social:
+    facebook: ""
+    github: ""
+    soundcloud: ""
+    twitch: ""
+    twitter: ""
+    vk: ""
+    youtube: ""
 
 skuman:
+  avatar: ""
   name: "Skumen"
   description: ""
-  img: "sk_test2"
+  jobTitle: ""
+  contacts:
+    email: ""
+  social:
+    facebook: ""
+    github: ""
+    soundcloud: ""
+    twitch: ""
+    twitter: ""
+    vk: ""
+    youtube: ""
 
 izoniazid:
+  avatar: ""
   name: "Izoniazid"
   description: ""
-  img: "iz_test3"
+  jobTitle: ""
+  contacts:
+    email: ""
+  social:
+    facebook: ""
+    github: ""
+    soundcloud: ""
+    twitch: ""
+    twitter: ""
+    vk: ""
+    youtube: ""
