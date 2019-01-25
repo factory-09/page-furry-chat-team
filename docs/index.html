@@ -29,7 +29,7 @@ permalink: /
 						{% assign youtube 		= user[1]['social']['youtube'] %}
 						<div class="column">
 							<article class="card" itemscope itemtype="http://schema.org/Person">
-								<div class="card-content nano">
+								<div class="card-content">
 									<div class="media">
 										<figure class="media-left">
 											<p class="image is-64x64">
@@ -45,12 +45,16 @@ permalink: /
 											</p>
 										</div>
 									</div>
-									<div class="content nano-content">
+									<div class="content">
+										<div class="nano">
+											<div class="nano-content">
 										{% for desc in description %}
 											<p>
 												{{ desc }}
 											</p>
 										{% endfor %}
+											</div>
+										</div>
 									</div>
 								</div>
 								<footer class="card-footer">
