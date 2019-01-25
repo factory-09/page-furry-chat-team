@@ -91,7 +91,7 @@ ryu:
 nao:
   avatar: ""
   name: "Näo"
-  description: "Администратор сервера ФУРРИ РП."
+  description: "Администратор сервера <a href='https://rp.furry.chat/' target='_blank'>ФУРРИ РП</a>."
   jobTitle: "Администратор"
   contacts:
     email: ""
@@ -108,7 +108,7 @@ nao:
 anub1zzz:
   avatar: ""
   name: "ANUB1ZZZ"
-  description: "Стример."
+  description: "Основатель сообщества <a href='https://vk.com/public130776171' rel='nofollow' target='_blank'>BigBadTeam</a>."
   jobTitle: "Стример"
   contacts:
     email: ""
