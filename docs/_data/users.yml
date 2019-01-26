@@ -1,5 +1,5 @@
 kitsune:
-  avatar: "https://bulma.io/images/placeholders/128x128.png"
+  avatar: "https://cdn-storage.github.io/images/avatars/"
   name: "Kitsune Solar"
   description:
     - "Веб-мастер и системный администратор."
@@ -18,7 +18,7 @@ kitsune:
     youtube: ""
 
 skuman:
-  avatar: ""
+  avatar: "https://cdn-storage.github.io/images/avatars/skumen.png"
   name: "Skumen"
   description:
     - "Любит различные технические примочки. Изучает ОС GNU/Linux."
@@ -36,7 +36,7 @@ skuman:
     youtube: ""
 
 izoniazid:
-  avatar: ""
+  avatar: "https://cdn-storage.github.io/images/avatars/"
   name: "Izoniazid"
   description: ""
   jobTitle: "Инженер"
@@ -53,7 +53,7 @@ izoniazid:
     youtube: ""
 
 caramel:
-  avatar: ""
+  avatar: "https://cdn-storage.github.io/images/avatars/caramel.png"
   name: "Карамелька"
   description:
     - "Любит компьютеры, программирование."
@@ -72,7 +72,7 @@ caramel:
     youtube: ""
 
 ryu:
-  avatar: ""
+  avatar: "https://cdn-storage.github.io/images/avatars/ryu.gif"
   name: "2RyU2"
   description:
     - "Художник. Живёт в Кишинёве, столице Молдавии."
@@ -91,7 +91,7 @@ ryu:
     youtube: ""
 
 nao:
-  avatar: ""
+  avatar: "https://cdn-storage.github.io/images/avatars/nao.png"
   name: "Näo"
   description: "Администратор сервера <a href='https://rp.furry.chat/' target='_blank'>ФУРРИ РП</a>."
   jobTitle: "Администратор"
@@ -108,7 +108,7 @@ nao:
     youtube: ""
 
 anub1zzz:
-  avatar: ""
+  avatar: "https://cdn-storage.github.io/images/avatars/anub1zzz.gif"
   name: "ANUB1ZZZ"
   description: "Основатель сообщества <a href='https://vk.com/public130776171' rel='nofollow' target='_blank'>BigBadTeam</a>."
   jobTitle: "Стример"
